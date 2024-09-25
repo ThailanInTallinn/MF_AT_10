@@ -16,6 +16,14 @@ export default function App() {
           =
         </span>
         <h1>Logo</h1>
+        <nav className="nav2">
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+          </ul>
+        </nav>
         <CgProfile className="profilePic" />
       </div>
       <nav style={{ display: menuToggle ? "block" : "none" }}>
